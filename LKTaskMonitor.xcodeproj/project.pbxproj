@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CF535711371998A00CE0D0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF535701371998A00CE0D0B /* UIKit.framework */; };
+		4CF535731371998A00CE0D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF535721371998A00CE0D0B /* Foundation.framework */; };
+		4CF535751371998A00CE0D0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CF535741371998A00CE0D0B /* CoreGraphics.framework */; };
+		4CF5357B1371998A00CE0D0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CF535791371998A00CE0D0B /* InfoPlist.strings */; };
+		4CF5357E1371998A00CE0D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5357D1371998A00CE0D0B /* main.m */; };
+		4CF535811371998A00CE0D0B /* LKTaskMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */; };
+		4CF535841371998A00CE0D0B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF535821371998A00CE0D0B /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CF5356C1371998A00CE0D0B /* LKTaskMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKTaskMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF535701371998A00CE0D0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CF535721371998A00CE0D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CF535741371998A00CE0D0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CF535781371998A00CE0D0B /* LKTaskMonitor-Info.plist */ = {isa = PBXFileReference; path = "LKTaskMonitor-Info.plist"; sourceTree = "<group>"; };
+		4CF5357A1371998A00CE0D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CF5357C1371998A00CE0D0B /* LKTaskMonitor-Prefix.pch */ = {isa = PBXFileReference; path = "LKTaskMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		4CF5357D1371998A00CE0D0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CF5357F1371998A00CE0D0B /* LKTaskMonitorAppDelegate.h */ = {isa = PBXFileReference; path = LKTaskMonitorAppDelegate.h; sourceTree = "<group>"; };
+		4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTaskMonitorAppDelegate.m; sourceTree = "<group>"; };
+		4CF535831371998A00CE0D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CF535691371998A00CE0D0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF535711371998A00CE0D0B /* UIKit.framework in Frameworks */,
+				4CF535731371998A00CE0D0B /* Foundation.framework in Frameworks */,
+				4CF535751371998A00CE0D0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CF535611371998900CE0D0B = {
+			isa = PBXGroup;
+			children = (
+				4CF535761371998A00CE0D0B /* LKTaskMonitor */,
+				4CF5356F1371998A00CE0D0B /* Frameworks */,
+				4CF5356D1371998A00CE0D0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CF5356D1371998A00CE0D0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF5356C1371998A00CE0D0B /* LKTaskMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CF5356F1371998A00CE0D0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CF535701371998A00CE0D0B /* UIKit.framework */,
+				4CF535721371998A00CE0D0B /* Foundation.framework */,
+				4CF535741371998A00CE0D0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF535761371998A00CE0D0B /* LKTaskMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				4CF5357F1371998A00CE0D0B /* LKTaskMonitorAppDelegate.h */,
+				4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */,
+				4CF535821371998A00CE0D0B /* MainWindow.xib */,
+				4CF535771371998A00CE0D0B /* Supporting Files */,
+			);
+			path = LKTaskMonitor;
+			sourceTree = "<group>";
+		};
+		4CF535771371998A00CE0D0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CF535781371998A00CE0D0B /* LKTaskMonitor-Info.plist */,
+				4CF535791371998A00CE0D0B /* InfoPlist.strings */,
+				4CF5357C1371998A00CE0D0B /* LKTaskMonitor-Prefix.pch */,
+				4CF5357D1371998A00CE0D0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CF5356B1371998A00CE0D0B /* LKTaskMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF535871371998A00CE0D0B /* Build configuration list for PBXNativeTarget "LKTaskMonitor" */;
+			buildPhases = (
+				4CF535681371998A00CE0D0B /* Sources */,
+				4CF535691371998A00CE0D0B /* Frameworks */,
+				4CF5356A1371998A00CE0D0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKTaskMonitor;
+			productName = LKTaskMonitor;
+			productReference = 4CF5356C1371998A00CE0D0B /* LKTaskMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CF535631371998900CE0D0B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4CF535661371998900CE0D0B /* Build configuration list for PBXProject "LKTaskMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CF535611371998900CE0D0B;
+			productRefGroup = 4CF5356D1371998A00CE0D0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CF5356B1371998A00CE0D0B /* LKTaskMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CF5356A1371998A00CE0D0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF5357B1371998A00CE0D0B /* InfoPlist.strings in Resources */,
+				4CF535841371998A00CE0D0B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CF535681371998A00CE0D0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF5357E1371998A00CE0D0B /* main.m in Sources */,
+				4CF535811371998A00CE0D0B /* LKTaskMonitorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CF535791371998A00CE0D0B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF5357A1371998A00CE0D0B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CF535821371998A00CE0D0B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CF535831371998A00CE0D0B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CF535851371998A00CE0D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CF535861371998A00CE0D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4CF535881371998A00CE0D0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTaskMonitor/LKTaskMonitor-Prefix.pch";
+				INFOPLIST_FILE = "LKTaskMonitor/LKTaskMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CF535891371998A00CE0D0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LKTaskMonitor/LKTaskMonitor-Prefix.pch";
+				INFOPLIST_FILE = "LKTaskMonitor/LKTaskMonitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF535661371998900CE0D0B /* Build configuration list for PBXProject "LKTaskMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF535851371998A00CE0D0B /* Debug */,
+				4CF535861371998A00CE0D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF535871371998A00CE0D0B /* Build configuration list for PBXNativeTarget "LKTaskMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CF535881371998A00CE0D0B /* Debug */,
+				4CF535891371998A00CE0D0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CF535631371998900CE0D0B /* Project object */;
+}
