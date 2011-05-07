@@ -14,20 +14,33 @@
 		4CF5357E1371998A00CE0D0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5357D1371998A00CE0D0B /* main.m */; };
 		4CF535811371998A00CE0D0B /* LKTaskMonitorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */; };
 		4CF535841371998A00CE0D0B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CF535821371998A00CE0D0B /* MainWindow.xib */; };
+		4CF5358D137199E800CE0D0B /* LKTaskMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5358C137199E800CE0D0B /* LKTaskMonitor.m */; };
+		4CF5359013719A4B00CE0D0B /* LKGenericTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5358F13719A4B00CE0D0B /* LKGenericTask.m */; };
+		4CF5359313719A5D00CE0D0B /* LKUserTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5359213719A5D00CE0D0B /* LKUserTask.m */; };
+		4CF5359613719A9600CE0D0B /* LKAsynchronousTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF5359513719A9600CE0D0B /* LKAsynchronousTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C9D84C9137205EE00ADEE50 /* LKTaskType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKTaskType.h; sourceTree = "<group>"; };
 		4CF5356C1371998A00CE0D0B /* LKTaskMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKTaskMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF535701371998A00CE0D0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CF535721371998A00CE0D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CF535741371998A00CE0D0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4CF535781371998A00CE0D0B /* LKTaskMonitor-Info.plist */ = {isa = PBXFileReference; path = "LKTaskMonitor-Info.plist"; sourceTree = "<group>"; };
+		4CF535781371998A00CE0D0B /* LKTaskMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKTaskMonitor-Info.plist"; sourceTree = "<group>"; };
 		4CF5357A1371998A00CE0D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4CF5357C1371998A00CE0D0B /* LKTaskMonitor-Prefix.pch */ = {isa = PBXFileReference; path = "LKTaskMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		4CF5357C1371998A00CE0D0B /* LKTaskMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LKTaskMonitor-Prefix.pch"; sourceTree = "<group>"; };
 		4CF5357D1371998A00CE0D0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4CF5357F1371998A00CE0D0B /* LKTaskMonitorAppDelegate.h */ = {isa = PBXFileReference; path = LKTaskMonitorAppDelegate.h; sourceTree = "<group>"; };
+		4CF5357F1371998A00CE0D0B /* LKTaskMonitorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKTaskMonitorAppDelegate.h; sourceTree = "<group>"; };
 		4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTaskMonitorAppDelegate.m; sourceTree = "<group>"; };
 		4CF535831371998A00CE0D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4CF5358B137199E800CE0D0B /* LKTaskMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKTaskMonitor.h; sourceTree = "<group>"; };
+		4CF5358C137199E800CE0D0B /* LKTaskMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKTaskMonitor.m; sourceTree = "<group>"; };
+		4CF5358E13719A4B00CE0D0B /* LKGenericTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKGenericTask.h; sourceTree = "<group>"; };
+		4CF5358F13719A4B00CE0D0B /* LKGenericTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKGenericTask.m; sourceTree = "<group>"; };
+		4CF5359113719A5D00CE0D0B /* LKUserTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserTask.h; sourceTree = "<group>"; };
+		4CF5359213719A5D00CE0D0B /* LKUserTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserTask.m; sourceTree = "<group>"; };
+		4CF5359413719A9600CE0D0B /* LKAsynchronousTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAsynchronousTask.h; sourceTree = "<group>"; };
+		4CF5359513719A9600CE0D0B /* LKAsynchronousTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAsynchronousTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +87,17 @@
 		4CF535761371998A00CE0D0B /* LKTaskMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				4CF5357F1371998A00CE0D0B /* LKTaskMonitorAppDelegate.h */,
-				4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */,
-				4CF535821371998A00CE0D0B /* MainWindow.xib */,
+				4CF5358A137199B000CE0D0B /* Test Application */,
 				4CF535771371998A00CE0D0B /* Supporting Files */,
+				4CF5358B137199E800CE0D0B /* LKTaskMonitor.h */,
+				4CF5358C137199E800CE0D0B /* LKTaskMonitor.m */,
+				4C9D84C9137205EE00ADEE50 /* LKTaskType.h */,
+				4CF5358E13719A4B00CE0D0B /* LKGenericTask.h */,
+				4CF5358F13719A4B00CE0D0B /* LKGenericTask.m */,
+				4CF5359113719A5D00CE0D0B /* LKUserTask.h */,
+				4CF5359213719A5D00CE0D0B /* LKUserTask.m */,
+				4CF5359413719A9600CE0D0B /* LKAsynchronousTask.h */,
+				4CF5359513719A9600CE0D0B /* LKAsynchronousTask.m */,
 			);
 			path = LKTaskMonitor;
 			sourceTree = "<group>";
@@ -91,6 +111,16 @@
 				4CF5357D1371998A00CE0D0B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CF5358A137199B000CE0D0B /* Test Application */ = {
+			isa = PBXGroup;
+			children = (
+				4CF5357F1371998A00CE0D0B /* LKTaskMonitorAppDelegate.h */,
+				4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */,
+				4CF535821371998A00CE0D0B /* MainWindow.xib */,
+			);
+			name = "Test Application";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +184,10 @@
 			files = (
 				4CF5357E1371998A00CE0D0B /* main.m in Sources */,
 				4CF535811371998A00CE0D0B /* LKTaskMonitorAppDelegate.m in Sources */,
+				4CF5358D137199E800CE0D0B /* LKTaskMonitor.m in Sources */,
+				4CF5359013719A4B00CE0D0B /* LKGenericTask.m in Sources */,
+				4CF5359313719A5D00CE0D0B /* LKUserTask.m in Sources */,
+				4CF5359613719A9600CE0D0B /* LKAsynchronousTask.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +292,7 @@
 				4CF535891371998A00CE0D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
