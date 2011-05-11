@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4C9D84C9137205EE00ADEE50 /* LKTaskType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKTaskType.h; sourceTree = "<group>"; };
+		4C9D84C9137205EE00ADEE50 /* LKTaskType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKTaskType.h; path = LKTaskMonitor/LKTaskType.h; sourceTree = "<group>"; };
 		4CF5356C1371998A00CE0D0B /* LKTaskMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKTaskMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF535701371998A00CE0D0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4CF535721371998A00CE0D0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,14 +33,14 @@
 		4CF5357F1371998A00CE0D0B /* LKTaskMonitorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKTaskMonitorAppDelegate.h; sourceTree = "<group>"; };
 		4CF535801371998A00CE0D0B /* LKTaskMonitorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTaskMonitorAppDelegate.m; sourceTree = "<group>"; };
 		4CF535831371998A00CE0D0B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4CF5358B137199E800CE0D0B /* LKTaskMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKTaskMonitor.h; sourceTree = "<group>"; };
-		4CF5358C137199E800CE0D0B /* LKTaskMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKTaskMonitor.m; sourceTree = "<group>"; };
-		4CF5358E13719A4B00CE0D0B /* LKGenericTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKGenericTask.h; sourceTree = "<group>"; };
-		4CF5358F13719A4B00CE0D0B /* LKGenericTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKGenericTask.m; sourceTree = "<group>"; };
-		4CF5359113719A5D00CE0D0B /* LKUserTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKUserTask.h; sourceTree = "<group>"; };
-		4CF5359213719A5D00CE0D0B /* LKUserTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKUserTask.m; sourceTree = "<group>"; };
-		4CF5359413719A9600CE0D0B /* LKAsynchronousTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAsynchronousTask.h; sourceTree = "<group>"; };
-		4CF5359513719A9600CE0D0B /* LKAsynchronousTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAsynchronousTask.m; sourceTree = "<group>"; };
+		4CF5358B137199E800CE0D0B /* LKTaskMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKTaskMonitor.h; path = LKTaskMonitor/LKTaskMonitor.h; sourceTree = "<group>"; };
+		4CF5358C137199E800CE0D0B /* LKTaskMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKTaskMonitor.m; path = LKTaskMonitor/LKTaskMonitor.m; sourceTree = "<group>"; };
+		4CF5358E13719A4B00CE0D0B /* LKGenericTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKGenericTask.h; path = LKTaskMonitor/LKGenericTask.h; sourceTree = "<group>"; };
+		4CF5358F13719A4B00CE0D0B /* LKGenericTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKGenericTask.m; path = LKTaskMonitor/LKGenericTask.m; sourceTree = "<group>"; };
+		4CF5359113719A5D00CE0D0B /* LKUserTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKUserTask.h; path = LKTaskMonitor/LKUserTask.h; sourceTree = "<group>"; };
+		4CF5359213719A5D00CE0D0B /* LKUserTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKUserTask.m; path = LKTaskMonitor/LKUserTask.m; sourceTree = "<group>"; };
+		4CF5359413719A9600CE0D0B /* LKAsynchronousTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LKAsynchronousTask.h; path = LKTaskMonitor/LKAsynchronousTask.h; sourceTree = "<group>"; };
+		4CF5359513719A9600CE0D0B /* LKAsynchronousTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LKAsynchronousTask.m; path = LKTaskMonitor/LKAsynchronousTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +57,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C1A0A311378DBB5009D78F0 /* LKTaskMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				4CF5358B137199E800CE0D0B /* LKTaskMonitor.h */,
+				4CF5358C137199E800CE0D0B /* LKTaskMonitor.m */,
+				4C9D84C9137205EE00ADEE50 /* LKTaskType.h */,
+				4CF5358E13719A4B00CE0D0B /* LKGenericTask.h */,
+				4CF5358F13719A4B00CE0D0B /* LKGenericTask.m */,
+				4CF5359113719A5D00CE0D0B /* LKUserTask.h */,
+				4CF5359213719A5D00CE0D0B /* LKUserTask.m */,
+				4CF5359413719A9600CE0D0B /* LKAsynchronousTask.h */,
+				4CF5359513719A9600CE0D0B /* LKAsynchronousTask.m */,
+			);
+			name = LKTaskMonitor;
+			sourceTree = "<group>";
+		};
 		4CF535611371998900CE0D0B = {
 			isa = PBXGroup;
 			children = (
-				4CF535761371998A00CE0D0B /* LKTaskMonitor */,
+				4C1A0A311378DBB5009D78F0 /* LKTaskMonitor */,
+				4CF535761371998A00CE0D0B /* TestApplication */,
 				4CF5356F1371998A00CE0D0B /* Frameworks */,
 				4CF5356D1371998A00CE0D0B /* Products */,
 			);
@@ -84,21 +101,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4CF535761371998A00CE0D0B /* LKTaskMonitor */ = {
+		4CF535761371998A00CE0D0B /* TestApplication */ = {
 			isa = PBXGroup;
 			children = (
 				4CF5358A137199B000CE0D0B /* Test Application */,
 				4CF535771371998A00CE0D0B /* Supporting Files */,
-				4CF5358B137199E800CE0D0B /* LKTaskMonitor.h */,
-				4CF5358C137199E800CE0D0B /* LKTaskMonitor.m */,
-				4C9D84C9137205EE00ADEE50 /* LKTaskType.h */,
-				4CF5358E13719A4B00CE0D0B /* LKGenericTask.h */,
-				4CF5358F13719A4B00CE0D0B /* LKGenericTask.m */,
-				4CF5359113719A5D00CE0D0B /* LKUserTask.h */,
-				4CF5359213719A5D00CE0D0B /* LKUserTask.m */,
-				4CF5359413719A9600CE0D0B /* LKAsynchronousTask.h */,
-				4CF5359513719A9600CE0D0B /* LKAsynchronousTask.m */,
 			);
+			name = TestApplication;
 			path = LKTaskMonitor;
 			sourceTree = "<group>";
 		};
