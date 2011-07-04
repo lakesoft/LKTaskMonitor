@@ -34,6 +34,8 @@
 
 // API
 - (void)addTaskType:(LKTaskType)type name:(NSString*)name;
+- (void)removeTaskName:(NSString*)taskName;
+- (void)setTaskName:(NSString*)taskName enbale:(BOOL)enabled;
 - (void)finishTaskName:(NSString*)taskName;
 
 @end

@@ -76,6 +76,10 @@
 //------------------------------------------------------------------------------
 - (void)addTaskType:(LKTaskType)type name:(NSString*)name
 {
+    if (name == nil) {
+        return;
+    }
+
     LKGenericTask* task = nil;
     switch (type) {
         case LKTaskTypeGenericTask:
@@ -100,8 +104,27 @@
     }
 }
 
+- (void)removeTaskName:(NSString*)taskName
+{
+    if (taskName == nil) {
+        return;
+    }
+    [self.tasks removeObjectForKey:taskName];
+}
+
+- (void)setTaskName:(NSString*)taskName enbale:(BOOL)enabled
+{
+    if (taskName == nil) {
+        return;
+    }
+   
+}
+
 - (void)finishTaskName:(NSString*)taskName
 {
+    if (taskName == nil) {
+        return;
+    }
     if (self.finished) {
         return;
     }
@@ -121,7 +144,7 @@
 
     for (NSString* name in [self.tasks keyEnumerator]) {
         LKGenericTask* task = [self.tasks objectForKey:name];
-        if (![task hasFinished]) {
+        if (![task hasFinished] && task.enabled) {
             allTaskDone = NO;
             if (task.type == finishedTask.type) {
                 currentTypeTaskDone = NO;

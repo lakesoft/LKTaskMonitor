@@ -27,6 +27,7 @@
     LKTaskType type;
 }
 @property (nonatomic, assign, readonly) LKTaskType type;
+@property (nonatomic, assign) BOOL enabled;
 
 // API
 - (void)finish;

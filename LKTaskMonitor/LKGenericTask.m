@@ -37,12 +37,14 @@ typedef enum {
 
 @synthesize type;
 @synthesize state;
+@synthesize enabled;
 
 - (id)init {
     self = [super init];
     if (self) {
         self.type = LKTaskTypeGenericTask;
         self.state = LKTaskStateDoing;
+        self.enabled = YES;
     }
     return self;
 }
