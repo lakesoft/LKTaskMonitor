@@ -157,6 +157,9 @@
 /* Begin PBXProject section */
 		4CF535631371998900CE0D0B /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 4CF535661371998900CE0D0B /* Build configuration list for PBXProject "LKTaskMonitor" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
